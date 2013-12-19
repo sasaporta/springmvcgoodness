@@ -10,6 +10,9 @@
 	Employee Name: <c:out value="${wrapper.employee.name}" /><br />
 	Employee Salary: <c:out value="${wrapper.employee.salary}" /><br />
 	<br />
+	File name: <c:out value="${fileName}" /><br />
+	File size: <c:out value="${fileSize}" /><br />
+	<br />
 	<a href=<c:url value="/test" />>Try again</a>
 </body>
 </html>
