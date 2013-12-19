@@ -1,4 +1,4 @@
-package com.stevesaporta.twoentities.entity;
+package com.stevesaporta.springmvcgoodness.entity;
 
 public class Student {
 	private String name;

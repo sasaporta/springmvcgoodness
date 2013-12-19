@@ -1,4 +1,4 @@
-package com.stevesaporta.twoentities.controller;
+package com.stevesaporta.springmvcgoodness.controller;
  
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.stevesaporta.twoentities.entity.Wrapper;
+import com.stevesaporta.springmvcgoodness.entity.Wrapper;
  
 @Controller
 public class HelloController {

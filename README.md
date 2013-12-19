@@ -16,14 +16,14 @@ Here are instructions for importing and running the project in Eclipse Juno with
 - Change directory to your Eclipse workspace.
 - Clone the Git repo:
 
-    git clone git@github.com:sasaporta/twoentities.git
+    git clone git@github.com:sasaporta/springmvcgoodness.git
 
 - Open Eclipse.
 - Select *File | Import* from the menu.
 - Expand *General* and select *Existing Projects into Workspace*. Click *Next*.
-- Browse to the *twoentities* subfolder of your Eclispe workspace and click *OK*.
+- Browse to the *springmvcgoodness* subfolder of your Eclispe workspace and click *OK*.
 - Click *Finish*.
-- Right-click *twoentities* in Eclipse's Project Explorer and select *Run As | Run on Server*.
+- Right-click *springmvcgoodness* in Eclipse's Project Explorer and select *Run As | Run on Server*.
 - Click *Finish*.
 - Restart the server if prompted to do so.
 - You should see a "hello world" page.
