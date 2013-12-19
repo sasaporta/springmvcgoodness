@@ -26,7 +26,7 @@ public class HelloController {
 	
 	@RequestMapping(value = "/test", method = RequestMethod.POST)
 	public ModelAndView formSubmitted(Wrapper wrapper, @RequestParam("myfile") MultipartFile myFile) throws IOException {
-		//System.out.println("Received file of size " + myFile.getSize() + " bytes");
+		// If desired, you can get the file contents as an array of bytes, as in the commented line below. 
 		//byte[] bytes = myFile.getBytes();
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("thankyou");
