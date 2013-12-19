@@ -6,6 +6,8 @@ This example builds on my [updated MVC "hello world" example](https://github.com
 - Read and write fields from two separate classes
 - Include a file upload control using Spring's MultipartFile interface
 
+Thanks are due to this post that helped me get started: [http://gerrydevstory.com/2013/07/09/spring-mvc-file-upload-form/](http://gerrydevstory.com/2013/07/09/spring-mvc-file-upload-form/)
+
 Here are instructions for importing and running the project in Eclipse Juno with Tomcat 7:
 - Open a shell or DOS command window.
 - Change directory to your Eclipse workspace.
